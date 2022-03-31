@@ -1,0 +1,36 @@
+{
+  "name": "UFace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/canzyq/UFace.git",
+  "author": "John Chao",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "6",
+    "recoil": "^0.6.1",
+    "rsuite": "^5.6.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.1",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --open --hot --config webpack.dev.js",
+    "build": "webpack --mode=production --config webpack.prod.js"
+  }
+}
