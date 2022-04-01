@@ -1,9 +1,10 @@
 import React from 'react';
+import ULogin from 'componment/layout/manage/login';
 
 const Home = () => {
     return (
         <div>
-            Hello
+            <ULogin />
         </div>
     )
 };
